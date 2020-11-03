@@ -1,4 +1,4 @@
-func_rating_diff = function(id_h, id_a){
+func_rating_diff = function(id_h, id_a, Elo){
   R_h = Elo$R[id_h]
   R_a = Elo$R[id_a]
   
